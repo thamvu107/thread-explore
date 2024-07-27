@@ -1,0 +1,12 @@
+- Using thread-safe APIs
+    - If you need to use a Java library in a concurrent application, read its documentation first to know whether it's thread-safe or not. If it's thread-safe, you can use it in your application without any problem. If it's not, you have the following two options:
+        - If a thread-safe alternative exists, you should use it
+        - If a thread-safe alternative doesn't exist, you should add the necessary synchronization to avoid all possible problematic situations, especially data race conditions
+    - Key Strategies for Using Thread-Safe APIs:
+      - Check the Documentation:
+        - Always read the documentation of the library or class you are using to determine if it is thread-safe. For instance, ArrayList is not thread-safe, whereas Vector is.
+      - Use Thread-Safe Alternatives:
+        - If a non-thread-safe class is unsuitable for concurrent use, find a thread-safe alternative. Java provides several thread-safe collections and utilities in the java.util.concurrent package.
+      - Add Synchronization:
+        - If a thread-safe alternative does not exist, you can add synchronization to ensure safe concurrent access. However, this can be more complex and less efficient than using built-in thread-safe classes.
+        
