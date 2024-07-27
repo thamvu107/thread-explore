@@ -5,12 +5,14 @@ public class ThreadCreation {
 //        System.out.println("Current thread name is: " + Thread.currentThread().getName());
 
         System.out.println("[1] Current thread name is: " + Thread.currentThread().getName());
+        // 1. Extend the Thread class
+        // 2. Use Runnable interface
 
         // 1. Extend the Thread class
-        MyThread myThread = new MyThread();
-        myThread.start();
+        MyThreadExtendThread myThread = new MyThreadExtendThread();
+        myThread.start(); /// start and run new thread
+//        myThread.run();// run thread( main thread) without creating new thread  =>
         myThread.join();
-//        myThread.run(); // main thread
 //        Thread.sleep(3000);
         System.out.println("[3] Current thread name is: " + myThread.getName());
 
