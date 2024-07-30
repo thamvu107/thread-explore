@@ -1,10 +1,11 @@
+package threadPriority;
+
+import threadCreation.MyThreadImplementRunnable;
+
 import static java.lang.Thread.*;
 
 public class ThreadPriority {
     public static void main(String[] args) throws InterruptedException {
-//        Thread thr1= new Thread(new MyThreadImplementRunnable(),"Thread1");
-//        Thread thr2= new Thread(new MyThreadImplementRunnable(),"Thread2" );
-//        Thread thr3= new Thread(new MyThreadImplementRunnable(),"Thread3");
 
         Thread thr1= new Thread(new MyThreadImplementRunnable("Thread1"));
         Thread thr2= new Thread(new MyThreadImplementRunnable("Thread2" ));

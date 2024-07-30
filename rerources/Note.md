@@ -10,3 +10,4 @@
       - Add Synchronization:
         - If a thread-safe alternative does not exist, you can add synchronization to ensure safe concurrent access. However, this can be more complex and less efficient than using built-in thread-safe classes.
         
+- Threads: Java applications rely on OS-level threads, which are heavyweight entities managed by the operating system. Each thread consumes significant memory resources, limiting scalability and imposing overhead on the system.

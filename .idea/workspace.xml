@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/concurent/ConcurrentJava.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/concurent/Counter.java" afterDir="false" />
@@ -15,6 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,11 +35,9 @@
 }</component>
   <component name="ProjectId" id="2jjPzB5aWFYdecjqPMN8l9cqDar" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+
     "Application.ConcurrentJava.executor": "Run",
     "Application.ImproveNoneThreadSafeExample.executor": "Run",
     "Application.ImproveThreadSafe.executor": "Run",
@@ -53,26 +53,7 @@
     "git-widget-placeholder": "concurent-java"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="MyThread" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="threadSafe.noneThreadSafe" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="" />
-      <created>1721897774562</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1721897774562</updated>
-    </task>
     <servers />
   </component>
   <component name="XDebuggerManager">
