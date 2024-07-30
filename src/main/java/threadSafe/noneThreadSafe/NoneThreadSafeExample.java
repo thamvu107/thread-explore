@@ -1,5 +1,7 @@
 package threadSafe.noneThreadSafe;
 
+import utils.GeneralUtils;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -44,11 +46,7 @@ public class NoneThreadSafeExample {
             System.out.println(threadName + " added: " + i);
 
             // Simulate some processing time
-            try {
-                Thread.sleep(1000); // Adjust sleep time as needed
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            GeneralUtils.sleep(100);
         }
     }
 }
