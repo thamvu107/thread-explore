@@ -4,23 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b96388-3488-4997-b5c0-3216fbc97df4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+
+    <list default="true" id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurent/ConcurrentJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurent/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurent/ImproveThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2jjPzB5aWFYdecjqPMN8l9cqDar" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "thread-explore"
+
+    "Application.ConcurrentJava.executor": "Run",
+    "Application.ImproveNoneThreadSafeExample.executor": "Run",
+    "Application.ImproveThreadSafe.executor": "Run",
+    "Application.NoneThreadSafeExample.executor": "Run",
+    "Application.ThreadCreation.executor": "Run",
+    "Application.ThreadCreation2.executor": "Run",
+    "Application.ThreadPriority.executor": "Run",
+    "Application.ThreadSafeExample.executor": "Run",
+    "Application.ThreadStates.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "concurent-java"
   }
 }]]></component>
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/concurent/Counter.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
