@@ -4,113 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rerources/States.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rerources/concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/DeadlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo2/DeadlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo2/DeadlockPrevention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo2/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/StoppableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/StoppableRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadGroup/ThreadGroupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadGroup/ThreadGroupMethodCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadInterference/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadInterference/ThreadInterferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadPriority/DeadlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadPriority/DeadlockPrevention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DeadlockDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/GeneralUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rerources/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/rerources/Note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyThreadExtendThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadCreation/MyThreadExtendThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyThreadImplementRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadCreation/MyThreadImplementRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadCreation/ThreadCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadGroupPractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadPriority/ThreadPriority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadSafe/noneThreadSafe/ImproveNoneThreadSafeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadSafe/noneThreadSafe/ImproveNoneThreadSafeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadSafe/noneThreadSafe/NoneThreadSafeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadSafe/noneThreadSafe/NoneThreadSafeExample.java" afterDir="false" />
+    <list default="true" id="01b96388-3488-4997-b5c0-3216fbc97df4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2jjPzB5aWFYdecjqPMN8l9cqDar" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.DeadlockDemo.executor": "Run",
-    "Application.DeadlockDemo2.executor": "Run",
-    "Application.DeadlockPrevention.executor": "Run",
-    "Application.ImproveNoneThreadSafeExample.executor": "Run",
-    "Application.NoneThreadSafeExample.executor": "Run",
-    "Application.StoppableDemo.executor": "Run",
-    "Application.ThreadCreation.executor": "Run",
-    "Application.ThreadCreation2.executor": "Run",
-    "Application.ThreadGroupDemo.executor": "Run",
-    "Application.ThreadGroupMethodCase.executor": "Run",
-    "Application.ThreadInterferenceDemo.executor": "Run",
-    "Application.ThreadPriority.executor": "Run",
-    "Application.ThreadSafeExample.executor": "Run",
-    "Application.ThreadStates.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "stop-thread",
-    "last_opened_file_path": "/Users/tham/Code/ThreadLocalPractice/rerources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "git-widget-placeholder": "thread-explore"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="MyThread" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rerources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="threadPriorityAndGroup" />
-      <recent name="deadlocks" />
-      <recent name="threadSafe.noneThreadSafe" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="" />
-      <created>1721897774562</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1721897774562</updated>
-    </task>
     <servers />
   </component>
 </project>
