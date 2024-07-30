@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurent/ConcurrentJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurent/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurent/ImproveThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rerources/concurrentProgramming.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/futureTask/FutureTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/futureTask/MyCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rerources/concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/rerources/concepts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/DeadlockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,11 +37,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-
     "Application.ConcurrentJava.executor": "Run",
+    "Application.FutureTaskDemo.executor": "Run",
     "Application.ImproveNoneThreadSafeExample.executor": "Run",
     "Application.ImproveThreadSafe.executor": "Run",
     "Application.NoneThreadSafeExample.executor": "Run",
+    "Application.RunnableFutureDemo.executor": "Run",
     "Application.ThreadCreation.executor": "Run",
     "Application.ThreadCreation2.executor": "Run",
     "Application.ThreadPriority.executor": "Run",
@@ -50,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "concurent-java"
+    "git-widget-placeholder": "runnable-future"
   }
 }]]></component>
   <component name="TaskManager">

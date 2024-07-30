@@ -1,9 +1,13 @@
 package deadlocks.demo1;
 
 import deadlocks.demo1.Resource;
+import utils.GeneralUtils;
 
 public class DeadlockDemo {
     public static void main(String[] args) {
+
+        GeneralUtils.detectDeadlocks();
+
         Resource resource1 = new Resource("Resource1");
         Resource resource2 = new Resource("Resource2");
 
