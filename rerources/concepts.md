@@ -1,21 +1,22 @@
 - [Source](https://aeontanvir.medium.com/java-multithreading-a-step-by-step-guide-for-concurrent-programming-3bf5dccbbfa1)
-- Thread:
-  - A thread is managed and scheduled by the operating system. Factors such as the system load, the number of processes running at a time on the machine, make thread scheduling unpredictable.
-  - A thread is the smallest unit of execution within a process. Multiple threads can exist within a single process and share the same memory space.
-- Process: A process is an independent program that runs in its memory space. It can consist of one or multiple threads.
-- Concurrency: Concurrency refers to the execution of multiple threads in overlapping time intervals. It allows tasks to appear as if they are executing simultaneously.
-- Parallelism: Parallelism involves the actual simultaneous execution of multiple threads or processes, typically on multi-core processors. It achieves true simultaneous execution.
-- Race Condition: A race condition occurs when two or more threads access shared data concurrently, and the final outcome depends on the timing and order of execution. It can lead to unpredictable behavior and bugs.
-- Synchronization: Synchronization is a mechanism used to coordinate and control access to shared resources. It prevents race conditions by allowing only one thread to access a resource at a time.
-- Deadlock: Deadlock is a situation in which two or more threads are unable to proceed because each is waiting for the other to release a resource. It can result in a system freeze.
-- The Thread Lifecycle: Threads in Java go through various states in their lifecycle:
+- **Concepts**:
+  - Thread:
+    - A thread is managed and scheduled by the operating system. Factors such as the system load, the number of processes running at a time on the machine, make thread scheduling unpredictable.
+    - A thread is the smallest unit of execution within a process. Multiple threads can exist within a single process and share the same memory space.
+  - Process: A process is an independent program that runs in its memory space. It can consist of one or multiple threads.
+  - Concurrency: Concurrency refers to the execution of multiple threads in overlapping time intervals. It allows tasks to appear as if they are executing simultaneously.
+  - Parallelism: Parallelism involves the actual simultaneous execution of multiple threads or processes, typically on multi-core processors. It achieves true simultaneous execution.
+  - Race Condition: A race condition occurs when two or more threads access shared data concurrently, and the final outcome depends on the timing and order of execution. It can lead to unpredictable behavior and bugs.
+  - Synchronization: Synchronization is a mechanism used to coordinate and control access to shared resources. It prevents race conditions by allowing only one thread to access a resource at a time.
+  - Deadlock: Deadlock is a situation in which two or more threads are unable to proceed because each is waiting for the other to release a resource. It can result in a system freeze.
+- **The Thread Lifecycle**: Threads in Java go through various states in their lifecycle:
   - New: When a thread is created but not yet started.
   - Runnable: The thread is ready to run and is waiting for its turn to execute.
   - Running: The thread is actively executing its code.
   - Blocked/Waiting: The thread is temporarily inactive, often due to waiting for a resource or event.
   - Terminated: The thread has completed execution and has been terminated.
   - Understanding the thread lifecycle is essential for proper thread management and synchronization in multithreaded applications.
-- Working with Multiple Threads:
+- **Working with Multiple Threads**:
   - When working with multiple threads, we need to be aware of various challenges and concepts, including thread interference, deadlocks, thread priority, and thread groups.
   - Thread Interference: 
     - Thread interference occurs when multiple threads access shared data concurrently, leading to unexpected and incorrect results. To avoid thread interference, we can use synchronization mechanisms like synchronized blocks or methods to ensure that only one thread accesses the shared data at a time.
@@ -23,4 +24,17 @@
   - Thread Priority and Group:
     - Thread priority: 
     - Thread Group: a thread group is a tree-like structure, and there can be multiple threads or groups of threads under each thread group. Thread groups can be used to uniformly control the priority of threads and check the permissions of threads and so on.
-
+- **Java’s Concurrency Utilities**: Three fundamental components of Java’s concurrency utilities are the Executor Framework, Thread Pools, and Callable and Future.
+  - The Executor Framework:
+  - Thread Pools:
+    - Thread pools are a mechanism for managing and reusing a fixed number of threads to execute tasks. They provide better performance compared to creating a new thread for each task, as thread creation and destruction overhead are reduced.
+  - Callable and Future:
+- **Advanced Multithreading**:
+  - Daemon Threads:
+  - Thread Local Variables: 
+    - Thread-local variables are variables that are local to each thread. They allow us to store data that is specific to a particular thread, ensuring that each thread has its own independent copy of the variable.
+  - Thread States (WAITING, TIMED_WAITING, BLOCKED):
+  - Inter-thread Communication:
+  - Concurrent Collections:
+    - Ex: ConcurrentHashMap, ConcurrentLinkedQueue, and CopyOnWriteArrayList, Collections.synchronizedList(List<K>)
+  

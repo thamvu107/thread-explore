@@ -1,0 +1,22 @@
+- [Source](https://towardsdev.com/java-multithreading-2-why-is-there-only-one-way-to-implement-threads-8e56b2153105)
+- **Parallelism**: multiple instructions are executed simultaneously on multiple CPUs at the same moment.
+- **Concurrency**: multiple instructions are executed alternately on a single CPU at the same moment.
+- **Thread class and Runnable interface**:  
+  - Advantages of the Thread class: 
+    - Simple and intuitive:
+    - Thread control
+  - Disadvantages of the Thread class:
+    - Single Inheritance Limitations
+    - Code coupling: the thread class and thread execution logic are tightly coupled, which is not conducive to code reuse and maintenance.
+  - Advantages of the Runnable interface:
+    - Better code reuse: Since it is an interface, it is possible to separate the execution logic of threads from other classes to achieve code reuse.
+    - Multi-implementation flexibility:  multiple interfaces can be implemented at the same time to avoid the limitations of single inheritance.
+    - Better extensibility: the interface makes it easy to extend the functionality of threads without affecting existing code
+  - Disadvantages of the Runnable interface:
+    - The code is a bit more complex:
+    - No thread control methods:
+  - > - Implementing the Runnable interface is better than inheriting the Thread class.
+- **Callable, Future and FutureTask**: we want to start a thread to perform a task, and after the task is completed, there is a return value. JDK provides the Callable interface to solve this problem for us.
+  - **Callable interface**: Callable is similar to Runnable( void), it is also a functional interface with only one abstract method. The difference is that the methods provided by Callable have return values and support generics.
+  - **Future interface and FutureTask class**: 
+    -  FutureTask class to complete asynchronous calculations with return values! FutureTask implements the RunnableFuture interface, and the RunnableFuture interface inherits both the Runnable interface and the Future interface, so it can be passed into Thread(Runable target).
