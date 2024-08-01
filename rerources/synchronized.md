@@ -1,0 +1,4 @@
+- Three Ways to Use Synchronized
+  - Synchronized Instance Methods:
+    - one thread can execute the method at a time for each instance of the class.
+    - NOTE: if a class has **multiple instance methods** that are **synchronized**, only one thread can execute one of these methods on an instance of the class at the same time.
