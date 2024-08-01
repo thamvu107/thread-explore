@@ -6,7 +6,7 @@
 - Waiting: Wait for another thread to perform an action. Thread commonly block while doing I/O.
 - Timed wait: The thread waits for an event for a finite amount of time.
 - Terminated: The thread is dead and cannot go back to any other state.
-- ![Screenshot 2024-07-29 at 16.39.51.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fsm%2Fs5gvn7v16wz308hl2n7qntx00000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_DJ1jn7%2FScreenshot%202024-07-29%20at%2016.39.51.png)
+
 
 - A blocking thread is expensive and wasteful. (a thread is a **resource** itself) - that take a long time to complete
 
@@ -16,4 +16,3 @@
 - volatile keyword: guarantees correct memory visibility
 - Synchronous:
 - Asynchronous:
-  - ![Screenshot 2024-07-29 at 18.31.45.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fsm%2Fs5gvn7v16wz308hl2n7qntx00000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_gOwnVc%2FScreenshot%202024-07-29%20at%2018.31.45.png)

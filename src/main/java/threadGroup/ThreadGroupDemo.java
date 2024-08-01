@@ -19,6 +19,7 @@ public class ThreadGroupDemo {
 
         ThreadGroup mainThreadGroup = Thread.currentThread().getThreadGroup();
         ThreadGroup systemThreadGroup = mainThreadGroup.getParent();
+
         System.out.println("The name of the parent thread group of the thread group where the current thread is located = " + systemThreadGroup.getName());
         System.out.println("The name of the thread group where the current thread is located is = " + mainThreadGroup.getName());
     }

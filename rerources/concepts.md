@@ -23,6 +23,8 @@
   - Deadlocks and Solutions: A deadlock occurs when two or more threads are unable to proceed because they are each waiting for the other to release a resource. Deadlocks can be challenging to diagnose and fix. Strategies to prevent deadlocks include using proper locking orders, timeouts, and deadlock detection algorithms. Here’s a high-level example of a potential deadlock scenario:
   - Thread Priority and Group:
     - Thread priority: 
+      - the priority set on a thread in a Java program is only a suggestion to the operating system, which the operating system does not necessarily adopt.
+      - The real order of execution is determined by the operating system’s thread scheduling algorithm
     - Thread Group: a thread group is a tree-like structure, and there can be multiple threads or groups of threads under each thread group. Thread groups can be used to uniformly control the priority of threads and check the permissions of threads and so on.
 - **Java’s Concurrency Utilities**: Three fundamental components of Java’s concurrency utilities are the Executor Framework, Thread Pools, and Callable and Future.
   - The Executor Framework:

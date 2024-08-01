@@ -32,5 +32,7 @@ public class ThreadGroupMethodCase {
 
         System.out.println("\nPrints information about currentThreadGroup to the standard output:");
         currentThreadGroup.list();
+
+
     }
 }

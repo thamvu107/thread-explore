@@ -5,12 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbc3c76a-4193-44de-93d2-f1df518dd0fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rerources/concurrentProgramming.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/futureTask/FutureTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/futureTask/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rerources/synchronized.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rerources/threadLivenessProblems.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rerources/threadSafeIssues.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priority/TestExecuteOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priority/ThreadGroupOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/interrupt/demo1/InterruptThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/interrupt/demo1/InterruptThreadWithoutFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/interrupt/demo2/InterruptThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/interrupt/demo2/InterruptThreadWithFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/interrupt/demo3/InterruptThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stopThread/interrupt/demo3/SleepWithIsInterrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/blockDemo/SynchronizedBlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/instanceMethods/noneSynchronized/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/instanceMethods/noneSynchronized/InstanceMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/instanceMethods/synchronizedInstanceMethods/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/instanceMethods/synchronizedInstanceMethods/InstanceMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/staticAndNoneStatic/MultiMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/staticAndNoneStatic/StaticAndNoneStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/staticMethod/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/synchronizedKeyword/staticMethod/StaticMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadJoin/ThreadJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadJoin/YouSayHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/livelock/LivelockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/livelock/LivelockPrevention.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/starvation/Starvation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/starvation/StarvationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/starvation/StarvationPrevention.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadSafe/demo1/NoneThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadSafe/demo1/ThreadSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadSafe/demo2/InitErrorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadSafe/demo2/InitErrorUpdatingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadStates/BlockCase1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadStates/BlockCase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadStates/JoinCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadStates/WaitingCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rerources/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/rerources/Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rerources/States.md" beforeDir="false" afterPath="$PROJECT_DIR$/rerources/States.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rerources/concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/rerources/concepts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/DeadlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/deadlocks/demo1/DeadlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo1/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/deadlocks/demo1/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo2/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/deadlocks/demo2/DeadlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo2/DeadlockPrevention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/deadlocks/demo2/DeadlockPrevention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/demo2/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadLivenessProblems/deadlocks/demo2/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stopThread/StoppableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stopThread/demo1/StoppableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stopThread/StoppableRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stopThread/demo1/StoppableRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadGroup/ThreadGroupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadGroup/ThreadGroupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadGroup/ThreadGroupMethodCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadGroup/ThreadGroupMethodCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadPriority/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priority/DeadlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadPriority/DeadlockPrevention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priority/DeadlockPrevention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadPriority/ThreadPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/priority/ThreadPriority.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +82,64 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BlockCase.executor": "Run",
+    "Application.BlockCase2.executor": "Run",
+    "Application.CheckInterrupt.executor": "Run",
     "Application.ConcurrentJava.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
     "Application.FutureTaskDemo.executor": "Run",
     "Application.ImproveNoneThreadSafeExample.executor": "Run",
     "Application.ImproveThreadSafe.executor": "Run",
+    "Application.InitErrorDemo.executor": "Run",
+    "Application.InitErrorUpdatingDemo.executor": "Run",
+    "Application.InstanceMethodDemo.executor": "Run",
+    "Application.InterruptThreadDemo.executor": "Run",
+    "Application.JoinCase.executor": "Run",
+    "Application.Livelock.executor": "Run",
+    "Application.Livelock2.executor": "Run",
+    "Application.NoneThreadSafe.executor": "Run",
     "Application.NoneThreadSafeExample.executor": "Run",
     "Application.RunnableFutureDemo.executor": "Run",
+    "Application.StarvationDemo.executor": "Run",
+    "Application.StarvationPrevention.executor": "Run",
+    "Application.StaticAndNoneStatic.executor": "Run",
+    "Application.StaticMethodDemo.executor": "Run",
+    "Application.SynchronizedBlockDemo.executor": "Run",
+    "Application.TestExecuteOrder.executor": "Run",
     "Application.ThreadCreation.executor": "Run",
     "Application.ThreadCreation2.executor": "Run",
+    "Application.ThreadGroupDemo.executor": "Run",
+    "Application.ThreadGroupOrder.executor": "Run",
+    "Application.ThreadJoinDemo.executor": "Run",
     "Application.ThreadPriority.executor": "Run",
+    "Application.ThreadSafeDemo.executor": "Run",
     "Application.ThreadSafeExample.executor": "Run",
     "Application.ThreadStates.executor": "Run",
+    "Application.WaitingCase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "runnable-future"
+    "git-widget-placeholder": "thread-states",
+    "last_opened_file_path": "/Users/tham/Code/ThreadLocalPractice/src/main/java/synchronizedKeyword/instanceMethods/noneSynchronized"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/synchronizedKeyword/instanceMethods/noneSynchronized" />
+      <recent name="$PROJECT_DIR$/src/main/java/synchronizedKeyword/instanceMethods" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rerources" />
+      <recent name="$PROJECT_DIR$/rerources/threadLivenessProblem" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="synchronizedKeyword.staticMethod" />
+      <recent name="threadJoin" />
+      <recent name="threadSafe.demo2" />
+      <recent name="stopThread.interrupt.demo3" />
+      <recent name="stopThread.interrupt.demo1" />
+    </key>
+  </component>
   <component name="TaskManager">
     <servers />
   </component>
