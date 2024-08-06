@@ -15,7 +15,7 @@ public class Counter {
         System.out.println(Thread.currentThread().getName() + " - Count after decrement: " + count + "\n");
     }
 
-    public int getCount() {
+    public synchronized int getCount() {
         return count;
     }
 }
